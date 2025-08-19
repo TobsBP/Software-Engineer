@@ -40,3 +40,11 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+## Conflito resolvido
+
+<<<<<<< Igor
+                print("Nada por aqui procure em outro local!")
+=======
+                print("Nada aqui! Continue tentando (SEU RUIM).")
+>>>>>>> main
