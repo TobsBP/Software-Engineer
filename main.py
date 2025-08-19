@@ -45,6 +45,7 @@ def main():
                 break
             else:
                 print("Nada por aqui procure em outro local!")
+
                 score += 1
         except Exception as e:
             print(f"Entrada inválida: {e}")
