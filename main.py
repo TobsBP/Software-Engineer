@@ -44,7 +44,7 @@ def main():
                 print_grid(grid, reveal=True)
                 break
             else:
-                print("Nada aqui! Continue tentando.")
+                print("Nada aqui! Continue tentando (SEU RUIM).")
                 score += 1
         except Exception as e:
             print(f"Entrada inválida: {e}")
