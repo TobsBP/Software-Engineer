@@ -42,7 +42,7 @@ python main.py
 ```
 
 ## Conflito resolvido
-
+```
 <<<<<<< Igor
                 print("Nada por aqui procure em outro local!")
 =======
