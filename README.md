@@ -1,42 +1,29 @@
-Software-Engineer
-
-````markdown
+# Software-Engineer
 
 ## Requisitos
 - Python 3.10+
 - Git
+- Poetry
 
 ## Instalação
 1. Clone o repositório:
 ```bash
 git clone <URL_DO_REPOSITORIO>.git
 cd <PASTA_DO_PROJETO>
-````
-
-2. Crie e ative o ambiente virtual:
-
-* Linux/Mac:
-
-```bash
-python -m venv venv
-source venv/bin/activate
 ```
 
-* Windows:
-
-```powershell
-python -m venv venv
-venv\Scripts\activate
+2. Instale as dependências com o Poetry:
+```bash
+poetry install
 ```
 
-3. Instale as dependências:
-
+3. Ative o ambiente virtual:
 ```bash
-pip install -r requirements.txt
+poetry shell
 ```
 
 ## Como rodar
 
 ```bash
-python main.py
+poetry run python main.py
 ```
